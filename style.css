@@ -1,0 +1,96 @@
+*{box-sizing:border-box;}
+body{margin:0px;
+     padding:0px;
+}
+#main{padding:0px;margin:0px;background:rgb(210,210,210);
+}
+header{background-image:url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: auto; 
+                text-align: center;
+                overflow: hidden;
+                padding: 60px;       
+}
+nav{  margin:0px;
+      padding:0px;
+      overflow:hidden;
+      height:auto;
+      width:100%;
+}
+nav ul {     width: 100%;
+             height: auto;
+             background-color:black;
+             color: white;
+             list-style-type: none;
+             padding-left: 0px;
+             padding-top: 0;
+             margin: 0;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             border-top:1px solid green;
+             overflow:hidden;
+             display:flex;
+}
+nav ul li { margin:0px;
+           padding:0px;
+           height:auto;
+           width:auto;
+           display:flex;
+}
+nav ul li a{ padding:20px;
+             overflow:hidden;
+             color: rgb(14, 155, 120);
+             font-weight: bold;
+             oration: none;
+             text-decoration:none;
+            display:flex;
+}
+nav ul li a:hover{color:white;
+                  background:mediumseagreen;
+                  margin:4px;
+                  transition: 0.8s;
+                  font-size:18px;
+}
+#img-div{display:grid;
+          border:1px solid black;
+          grid-template-columns:auto;
+          width:96%;
+          height:auto;
+           margin:auto;
+           margin-top:2vw;
+           padding-bottom:2vw;
+            padding:0px;
+              overflow:hidden;
+              box-shadow:0px 0px 7px ;
+
+}
+#image{width:100%;
+       height:700px;
+       overflow:hidden;       
+       margin:auto;
+       padding:0px;
+        object-fit: cover;
+
+}
+#img-caption{width:100%;
+            height:auto;
+            text-align:center;
+            font-size:18px;
+            color:black;
+            padding:25px;
+            font-family:Helvetica,Verdana,Arial;    
+}
+
+#tribute-info{width:96%;
+              margin:auto;
+              padding:12px;
+              margin-top:2vw;
+              font-family:Arial,Helvetica,Verdana;
+              text-align: justify;
+              overflow:auto;
+              letter-spacing: 1px;
+              column-count:2;
+              padding-bottom:2vw;   
+}
+#tribute-link{color:blue;}
